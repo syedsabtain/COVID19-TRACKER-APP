@@ -26,7 +26,7 @@ const Covid19 = ()=>
             const sdata = await fetch('https://api.thevirustracker.com/free-api?countryTotals=ALL');
             const sdat = await sdata.json();
             setTest(sdat.countryitems[0])  
-            if(counter==0){
+            if(counter===0){
             delete dat.results[0].source;
             setData(dat.results[0]);
             

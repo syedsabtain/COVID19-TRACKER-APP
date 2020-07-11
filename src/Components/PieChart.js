@@ -31,7 +31,7 @@ const data = {
     return (
       <div style={{textAlign:'center'}}>
 		  <h2>{countryname}</h2>
-        <Pie data={data} height={80} style={'margin-top:50'} />
+        <Pie data={data} height={80}  />
       </div>
     );
   }
